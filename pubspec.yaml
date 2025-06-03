@@ -1,0 +1,38 @@
+name: narrative_dashboard
+description: Interactive AI-Generated Business Reports Dashboard
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  google_fonts: ^5.1.0
+  fl_chart: ^0.63.0
+  speech_to_text: ^6.3.0
+  google_generative_ai: ^0.2.0
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+  share_plus: ^7.0.0
+  path_provider: ^2.1.0
+  uuid: ^4.0.0
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  crypto: ^3.0.3
+  http: ^1.1.0
+  connectivity_plus: ^5.0.1
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ 
